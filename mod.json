@@ -1,0 +1,30 @@
+{
+	"id": "hallowed.max_attempts",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"geode": "4.2.0",
+	"name": "Max Attempts",
+	"developer": "Hallowed",
+	"version": "1.0.0",
+	"dependencies": [
+		{
+			"id": "geode.node-ids",
+			"version": ">=1.18.0",
+			"importance": "required"
+		}
+	],
+	"resources": {
+		"sprites": [
+			"caixa_menu.png",
+			"fundo_pattern.png",
+			"titulo_selector.png",
+			"botao_abrir.png"
+		]
+	},
+	"description": "Define a maximum number of attempts before automatically quitting the level!",
+	"tags": ["gameplay", "utility"]
+}
